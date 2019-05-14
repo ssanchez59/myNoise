@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
+	"github.com/perlin-network/myNoise/internal/protobuf"
+	"github.com/perlin-network/myNoise/log"
+	"github.com/perlin-network/myNoise/network"
 )
 
 const (

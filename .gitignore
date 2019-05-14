@@ -7,7 +7,7 @@ coverage.txt
 *.exe
 *.test
 
-noise
+myNoise
 chat
 debug
 

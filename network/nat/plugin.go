@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/peer"
+	"github.com/perlin-network/myNoise/log"
+	"github.com/perlin-network/myNoise/network"
+	"github.com/perlin-network/myNoise/peer"
 
 	"github.com/fd/go-nat"
 )
@@ -74,7 +74,7 @@ func (p *plugin) Startup(n *network.Network) {
 		Str("external_ip", p.externalIP.String()).
 		Msg("")
 
-	p.externalPort, err = gateway.AddPortMapping("tcp", p.internalPort, "noise", 1*time.Second)
+	p.externalPort, err = gateway.AddPortMapping("tcp", p.internalPort, "myNoise", 1*time.Second)
 
 	if err != nil {
 		log.Warn().

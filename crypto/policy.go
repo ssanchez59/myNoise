@@ -1,5 +1,5 @@
-//go:generate mockgen -destination=mocks/mock_signature_policy.go -package=mocks github.com/perlin-network/noise/crypto SignaturePolicy
-//go:generate mockgen -destination=mocks/mock_hash_policy.go -package=mocks github.com/perlin-network/noise/crypto HashPolicy
+//go:generate mockgen -destination=mocks/mock_signature_policy.go -package=mocks github.com/perlin-network/myNoise/crypto SignaturePolicy
+//go:generate mockgen -destination=mocks/mock_hash_policy.go -package=mocks github.com/perlin-network/myNoise/crypto HashPolicy
 
 package crypto
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/perlin-network/noise/crypto/ed25519"
+	"github.com/perlin-network/myNoise/crypto/ed25519"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/uber-go/atomic"

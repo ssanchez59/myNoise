@@ -1,30 +1,30 @@
-# Noise
+# myNoise
 
 [![GoDoc][1]][2] [![Discord][7]][8] [![Powered][3]][4] [![MIT licensed][5]][6] [![Build Status][9]][10] [![Go Report Card][11]][12] [![Coverage Statusd][13]][14]
 
-[1]: https://godoc.org/github.com/perlin-network/noise?status.svg
-[2]: https://godoc.org/github.com/perlin-network/noise
+[1]: https://godoc.org/github.com/perlin-network/myNoise?status.svg
+[2]: https://godoc.org/github.com/perlin-network/myNoise
 [3]: https://img.shields.io/badge/KCP-Powered-blue.svg
 [4]: https://github.com/skywind3000/kcp
 [5]: https://img.shields.io/badge/license-MIT-blue.svg
 [6]: LICENSE
 [7]: https://img.shields.io/discord/458332417909063682.svg
 [8]: https://discord.gg/dMYfDPM
-[9]: https://travis-ci.org/perlin-network/noise.svg?branch=master
-[10]: https://travis-ci.org/perlin-network/noise
-[11]: https://goreportcard.com/badge/github.com/perlin-network/noise
-[12]: https://goreportcard.com/report/github.com/perlin-network/noise
-[13]: https://codecov.io/gh/perlin-network/noise/branch/master/graph/badge.svg
-[14]: https://codecov.io/gh/perlin-network/noise
+[9]: https://travis-ci.org/perlin-network/myNoise.svg?branch=master
+[10]: https://travis-ci.org/perlin-network/myNoise
+[11]: https://goreportcard.com/badge/github.com/perlin-network/myNoise
+[12]: https://goreportcard.com/report/github.com/perlin-network/myNoise
+[13]: https://codecov.io/gh/perlin-network/myNoise/branch/master/graph/badge.svg
+[14]: https://codecov.io/gh/perlin-network/myNoise
 
 
 <img align="right" width=400 src="media/chat.gif">
 
-**noise** is an opinionated, easy-to-use P2P network stack for
+**myNoise** is an opinionated, easy-to-use P2P network stack for
 *decentralized applications, and cryptographic protocols* written in
 [Go](https://golang.org/) by Perlin Network.
 
-**noise** is made to be robust, developer-friendly, performant, secure, and
+**myNoise** is made to be robust, developer-friendly, performant, secure, and
 cross-platform across multitudes of devices by making use of well-tested,
 production-grade dependencies.
 
@@ -126,7 +126,7 @@ incoming peers.
 ```go
 builder := network.NewBuilder()
 
-// Set the address which noise will listen on and peers will use to connect to
+// Set the address which myNoise will listen on and peers will use to connect to
 // you. For example, set the host part to `localhost` if you are testing
 // locally, or your public IP address if you are connected to the internet
 // directly.
@@ -195,7 +195,7 @@ builder := network.NewBuilder()
 builder.AddPlugin(new(YourAwesomePlugin))
 ```
 
-**noise** comes with three plugins: `discovery.Plugin`, `backoff.Plugin` and
+**myNoise** comes with three plugins: `discovery.Plugin`, `backoff.Plugin` and
 `nat.Plugin`.
 
 ```go
@@ -217,7 +217,7 @@ peer discovery within your application.
 
 ## Handling Messages
 
-All messages that pass through **noise** are serialized/deserialized as
+All messages that pass through **myNoise** are serialized/deserialized as
 [protobufs](https://developers.google.com/protocol-buffers/). If you want to
 use a new message type for your application, you must first register your
 message type.
@@ -227,7 +227,7 @@ opcode.RegisterMessageType(opcode.Opcode(1000), &MyNewProtobufMessage{})
 ```
 
 On a spawned `us-east1-b` Google Cloud (GCP) cluster comprised of 8
-`n1-standard-1` (1 vCPU, 3.75GB memory) instances, **noise** is able to sign,
+`n1-standard-1` (1 vCPU, 3.75GB memory) instances, **myNoise** is able to sign,
 send, receive, verify, and process a total of ~10,000 messages per second.
 
 Once you have modeled your messages as protobufs, you may process and receive

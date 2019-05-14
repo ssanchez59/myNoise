@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/perlin-network/noise/crypto/ed25519"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/network/discovery"
+	"github.com/perlin-network/myNoise/crypto/ed25519"
+	"github.com/perlin-network/myNoise/log"
+	"github.com/perlin-network/myNoise/network"
+	"github.com/perlin-network/myNoise/network/discovery"
 
 	"github.com/xtaci/smux"
 )
@@ -141,7 +141,7 @@ func (state *ProxyServerPlugin) PeerDisconnect(client *network.PeerClient) {
 	log.Info().Msgf("Lost connection with proxy destination %s.", client.Address)
 }
 
-// An example showcasing how to use streams in Noise by creating a sample proxying server.
+// An example showcasing how to use streams in myNoise by creating a sample proxying server.
 func main() {
 	flag.Set("logtostderr", "true")
 
