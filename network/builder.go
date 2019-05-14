@@ -284,8 +284,8 @@ func (builder *Builder) Build(structure string) (*Network, error) {
 		genesisCube = Cube{0, 0, "open", 0, " ", " ", " ", " ", time.Now(), " ", " "}
 		chain := []Cube{genesisCube}
 		net.Lattice = map[string][]Cube{
-			"tcp://192.168.0.18:3000": chain,
-			"tcp://192.168.0.18:3001": chain,
+			"tcp://192.168.51.167:3000": chain,
+			"tcp://192.168.51.167:3001": chain,
 			// "tcp://10.150.0.2:3000": chain,
 			// "tcp://10.150.0.4:3000": chain,
 			// "tcp://10.150.0.6:3000": chain,
