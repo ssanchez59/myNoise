@@ -11,8 +11,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/perlin-network/noise/crypto/blake2b"
-	"github.com/perlin-network/noise/peer"
+	"github.com/perlin-network/myNoise/crypto/blake2b"
+	"github.com/perlin-network/myNoise/peer"
 )
 
 var (

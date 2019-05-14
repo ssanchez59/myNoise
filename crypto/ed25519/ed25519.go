@@ -3,7 +3,7 @@ package ed25519
 import (
 	"crypto/rand"
 
-	"github.com/perlin-network/noise/crypto"
+	"github.com/perlin-network/myNoise/crypto"
 )
 
 // Ed25519 represents the ed25519 cryptographic signature scheme.

@@ -7,9 +7,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/perlin-network/noise/crypto"
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/log"
+	"github.com/perlin-network/myNoise/crypto"
+	"github.com/perlin-network/myNoise/internal/protobuf"
+	"github.com/perlin-network/myNoise/log"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"

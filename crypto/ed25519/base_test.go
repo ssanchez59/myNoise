@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/perlin-network/noise/crypto/ed25519/internal/edwards25519"
+	"github.com/perlin-network/myNoise/crypto/ed25519/internal/edwards25519"
 )
 
 type zeroReader struct{}

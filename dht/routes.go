@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/perlin-network/noise/peer"
+	"github.com/perlin-network/myNoise/peer"
 )
 
 // BucketSize defines the NodeID, Key, and routing table data structures.

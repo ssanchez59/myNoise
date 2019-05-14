@@ -20,7 +20,7 @@ func init() {
 	}
 }
 
-// Disable disables the noise logger
+// Disable disables the myNoise logger
 func Disable() {
 	logger = zerolog.New(nil).Level(zerolog.Disabled)
 }

@@ -34,7 +34,7 @@ func TestNetworkName(t *testing.T) {
 	t.Parallel()
 
 	address := NewAddressInfo("kcp", "127.0.0.1", 10000)
-	expected := "noise"
+	expected := "myNoise"
 	if address.Network() != expected {
 		t.Errorf("Network() = %s, expected %s", address.Network(), expected)
 	}

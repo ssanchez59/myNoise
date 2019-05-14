@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/perlin-network/noise/crypto"
-	"github.com/perlin-network/noise/crypto/ed25519"
-	"github.com/perlin-network/noise/examples/basic/messages"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/network/discovery"
-	"github.com/perlin-network/noise/types/opcode"
+	"github.com/perlin-network/myNoise/crypto"
+	"github.com/perlin-network/myNoise/crypto/ed25519"
+	"github.com/perlin-network/myNoise/examples/basic/messages"
+	"github.com/perlin-network/myNoise/network"
+	"github.com/perlin-network/myNoise/network/discovery"
+	"github.com/perlin-network/myNoise/types/opcode"
 
 	"github.com/pkg/errors"
 )

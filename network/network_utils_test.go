@@ -5,14 +5,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/perlin-network/noise/crypto"
-	"github.com/perlin-network/noise/crypto/blake2b"
-	"github.com/perlin-network/noise/crypto/ed25519"
-	"github.com/perlin-network/noise/internal/test/protobuf"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/network/discovery"
-	"github.com/perlin-network/noise/peer"
-	"github.com/perlin-network/noise/types/opcode"
+	"github.com/perlin-network/myNoise/crypto"
+	"github.com/perlin-network/myNoise/crypto/blake2b"
+	"github.com/perlin-network/myNoise/crypto/ed25519"
+	"github.com/perlin-network/myNoise/internal/test/protobuf"
+	"github.com/perlin-network/myNoise/network"
+	"github.com/perlin-network/myNoise/network/discovery"
+	"github.com/perlin-network/myNoise/peer"
+	"github.com/perlin-network/myNoise/types/opcode"
 )
 
 func init() {

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/perlin-network/noise/types/lru"
+	"github.com/perlin-network/myNoise/types/lru"
 	"github.com/pkg/errors"
 )
 
@@ -20,7 +20,7 @@ type AddressInfo struct {
 }
 
 const (
-	networkClientName = "noise"
+	networkClientName = "myNoise"
 )
 
 // Errors

@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/perlin-network/noise/crypto/ed25519"
-	"github.com/perlin-network/noise/examples/local_benchmark/messages"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/types/opcode"
+	"github.com/perlin-network/myNoise/crypto/ed25519"
+	"github.com/perlin-network/myNoise/examples/local_benchmark/messages"
+	"github.com/perlin-network/myNoise/log"
+	"github.com/perlin-network/myNoise/network"
+	"github.com/perlin-network/myNoise/types/opcode"
 )
 
 var profile = flag.String("profile", "", "write cpu profile to file")

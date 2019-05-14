@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/perlin-network/noise/crypto"
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network/transport"
-	"github.com/perlin-network/noise/peer"
-	"github.com/perlin-network/noise/types/opcode"
+	"github.com/perlin-network/myNoise/crypto"
+	"github.com/perlin-network/myNoise/internal/protobuf"
+	"github.com/perlin-network/myNoise/log"
+	"github.com/perlin-network/myNoise/network/transport"
+	"github.com/perlin-network/myNoise/peer"
+	"github.com/perlin-network/myNoise/types/opcode"
 	"github.com/pkg/errors"
 )
 

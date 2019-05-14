@@ -12,7 +12,7 @@ type PluginInfo struct {
 }
 
 // PluginList holds a statically-typed sorted map of plugins
-// registered on Noise.
+// registered on myNoise.
 type PluginList struct {
 	keys   map[reflect.Type]*PluginInfo
 	values []*PluginInfo

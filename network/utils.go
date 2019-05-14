@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/perlin-network/noise/internal/protobuf"
+	"github.com/perlin-network/myNoise/internal/protobuf"
 )
 
 // SerializeMessage compactly packs all bytes of a message together for cryptographic signing purposes.

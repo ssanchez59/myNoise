@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/perlin-network/noise/internal/test/protobuf"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/types/opcode"
+	"github.com/perlin-network/myNoise/internal/test/protobuf"
+	"github.com/perlin-network/myNoise/network"
+	"github.com/perlin-network/myNoise/types/opcode"
 
 	"github.com/stretchr/testify/assert"
 )

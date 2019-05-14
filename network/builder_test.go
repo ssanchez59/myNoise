@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/perlin-network/noise/crypto/blake2b"
-	"github.com/perlin-network/noise/crypto/ed25519"
+	"github.com/perlin-network/myNoise/crypto/blake2b"
+	"github.com/perlin-network/myNoise/crypto/ed25519"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )
